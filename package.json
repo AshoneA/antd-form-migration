@@ -23,5 +23,9 @@
   "bin": {
     "antdfm": "./index.js"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshoneA/antd-form-migration.git"
+  }
 }
