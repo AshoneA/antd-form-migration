@@ -165,14 +165,20 @@ if (prettirepath) {
   prettier.resolveConfig(prettierrc).then(options => {
     fs.writeFile(filename, prettier.format(output.code, options), err => {
       if (err) {
+        chalk.red('migration fail');
         console.log(err);
+      } else {
+        chalk.green('migration successful');
       }
     });
   });
 } else {
   fs.writeFile(filename, prettier.format(output.code), err => {
     if (err) {
+      chalk.red('migration fail');
       console.log(err);
+    } else {
+      chalk.green('migration successful');
     }
   });
 }
