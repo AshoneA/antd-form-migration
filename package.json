@@ -1,5 +1,5 @@
 {
-  "name": "antd-form-migration",
+  "name": "antdfm",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "yargs": "^15.1.0"
   },
   "bin": {
-    "antdFM": "./index.js"
+    "antdfm": "./index.js"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",

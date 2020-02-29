@@ -2,11 +2,11 @@
 
 ## get start
 
-1. `npm install --save-dev antdFM`
+1. `npm install --save-dev antdfm`
 
-2. `antdFM -f ./form.js`
+2. `antdfm -f ./form.js`
 
-3. when you migration successful, then `npm uninstall --save-dev antdFM`
+3. when you migration successful, then `npm uninstall --save-dev antdfm`
 
 ### options 
 -- -f, --filename: specify want to tranform file path
